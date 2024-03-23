@@ -1,5 +1,7 @@
-# IP Sniffer (Rust)
+# IP Sniffer (Rust) 
 
+<p align="left">  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGF5Y3lyZWgweWd5eHVndDF2a3ZhYXZsMDB2dWtnd2tjcjlxYmhoeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1yMvhR4M47Okw4n8tt/giphy.gif" alt="sniffer" /> 
+   </p>
 This Rust application provides a simple yet effective tool for scanning ports on a given IP address. With multithreading support, it efficiently checks for open ports within the specified range.
 
 ## Features
