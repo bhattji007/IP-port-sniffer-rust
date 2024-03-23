@@ -30,17 +30,23 @@ This Rust application provides a simple yet effective tool for scanning ports on
 ### Running
 The application accepts the following command-line arguments:
 
--threads <num_threads>: Specify the number of threads for concurrent scanning.
--h or -help: Display help message.
+- `-j <num_threads>`: Specify the number of threads for concurrent scanning.
+- `-h` or `-help`: Display help message.
 Example uses:
 - Display help messages:-
   
    ```bash
    cargo run --h
--Scan ports on a specific IP address with default settings (4 threads):-
+- Scan ports on a specific IP address with default settings (4 threads):-
 
    ```bash
-   cargo run 192.168.1.1
+   cargo run 192.168.1.1  
+- Scan ports on a specific IP address with a custom number of threads:
 
+   ```bash
+   cargo run 192.168.1.1 
+### Output
+The application provides a list of open ports found during the scan.
 
-  
+## Contributions
+Contributions are welcome! Feel free to open issues or pull requests.
