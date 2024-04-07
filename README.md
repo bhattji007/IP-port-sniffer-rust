@@ -47,8 +47,10 @@ Example uses:
 
    ```bash
    cargo run -- -threads 100 192.168.1.1 
+
 ### Output
 The application provides a list of open ports found during the scan.
+
 
 ## Contributions
 Contributions are welcome! Feel free to open issues or pull requests.
